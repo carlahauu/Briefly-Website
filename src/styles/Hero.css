@@ -1,0 +1,77 @@
+.heroContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heroTitle{
+    text-align: center;
+    width: 60%;
+}
+
+.heroTitle span{
+    color: #2CBB90;
+    font-weight: bold;
+}
+
+.heroTitle h1{
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.heroTitle h2{
+    font-weight: 500;
+    font-size: 25px;
+    opacity: 0.6;
+    margin-top: -20px;
+}
+
+.installBtn{
+    background-color: #2CBB90;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    font-size: 25px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-right: 10px;
+}
+
+.demoBtn{
+    border-radius: 15px;
+    color: #2CBB90;
+    border-color: #2CBB90;
+    border-style: solid;
+    border-width: 3px;
+    background-color: white;
+    font-size: 25px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .heroTitle{
+        text-align: center;
+        width: 80%;
+    }
+    .heroButtons{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+    }
+    .installBtn{
+        margin-right: 0px;
+        width: 100%;
+    }
+    .demoBtn{
+        margin-left: 0px;
+        margin-top: 10px;
+        width: 100%;
+    }
+  }
